@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
-import Login from './Login'
-import Dashboard from './Dashboard'
+import Login from './Login.jsx'
+import Dashboard from './Dashboard.jsx'
 
 function App() {
   const [users, setUsers] = useState([]) // Data akun untuk login
